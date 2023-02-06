@@ -10,4 +10,12 @@ jobs:
     
     steps:
       - name: Imprimir data ubuntu.
-        run: echo date
+        run: date
+  
+  print_imprimir_date_windowns:
+    name: Imprimindo a data no Windowns!
+    runs-on: windows-latest
+    
+    steps:
+      - name: Imprimir data Windowns.
+        run: date
