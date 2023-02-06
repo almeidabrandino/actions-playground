@@ -1,0 +1,13 @@
+name: "Hello World workflow"
+
+on:
+  push:
+  
+jobs:
+  print_imprimir_date_ubuntu:
+    name: Imprimindo a data no Ubundo !
+    runs-on: ubuntu-latest
+    
+    steps:
+      -name: Imprimir data ubuntu
+        run: echo date
