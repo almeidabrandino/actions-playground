@@ -19,3 +19,11 @@ jobs:
     steps:
       - name: Imprimir data Windowns.
         run: date
+  
+  print_imprimir_date_macos:
+    name: Imprimindo a data no macos!
+    runs-on: macos-latest
+    
+    steps:
+      - name: Imprimir data macos.
+        run: date
